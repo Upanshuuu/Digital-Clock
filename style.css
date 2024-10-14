@@ -1,0 +1,77 @@
+/* { 
+    margin: 0;
+    padding: 0;
+    /* background:linear-gradient(45deg,#08001f,#30197d); 
+    box-sizing: border-box;
+}
+#hero{
+    background:linear-gradient(45deg,#08001f,#30197d);
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    position: relative;
+}
+
+    .container{ 
+    height: 180px;
+    width: 1000px;
+    background-color: #ff0000;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+} */
+
+
+
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #282c34; /* Dark background */
+    color: #61dafb; /* Light blue text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+}
+
+#hero {
+    text-align: center;
+    
+}
+
+.conainer { /* Fixed typo: "container" */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.clock {
+    font-size: 4rem; /* Large font size for the clock */
+    letter-spacing: 0.1rem; /* Spacing between letters */
+    font-weight: bold; /* Bold text */
+    transition: color 0.5s; /* Smooth color transition */
+}
+
+/* Optional: Change color on hover */
+.clock:hover {
+    color: #ffffff; /* Change color on hover */
+}
+.clock span{
+    font-size: 80px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    
+}
+.clock span::after{
+    
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    left: -50%;
+    transform: translateX(-50px);
+}
